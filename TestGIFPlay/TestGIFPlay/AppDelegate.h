@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define PI 3.14
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
