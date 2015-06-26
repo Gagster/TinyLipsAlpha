@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C23AE35C1B3BFF470081770F /* GifView.m in Sources */ = {isa = PBXBuildFile; fileRef = C23AE35B1B3BFF470081770F /* GifView.m */; };
+		C274AD041B3CF4410074BFB1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C274AD031B3CF4410074BFB1 /* Person.m */; };
 		C2D458981B3BABD600B937A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D458971B3BABD600B937A1 /* main.m */; };
 		C2D4589B1B3BABD600B937A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4589A1B3BABD600B937A1 /* AppDelegate.m */; };
 		C2D4589D1B3BABD600B937A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D4589C1B3BABD600B937A1 /* Images.xcassets */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		C23AE35A1B3BFF470081770F /* GifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifView.h; sourceTree = "<group>"; };
 		C23AE35B1B3BFF470081770F /* GifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifView.m; sourceTree = "<group>"; };
+		C274AD021B3CF4410074BFB1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C274AD031B3CF4410074BFB1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		C2D458921B3BABD600B937A1 /* TestGIFPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGIFPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D458961B3BABD600B937A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D458971B3BABD600B937A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				C2D458B51B3BAC1000B937A1 /* ViewController.h */,
 				C2D458B61B3BAC1000B937A1 /* ViewController.m */,
 				C23AE35A1B3BFF470081770F /* GifView.h */,
+				C274AD021B3CF4410074BFB1 /* Person.h */,
+				C274AD031B3CF4410074BFB1 /* Person.m */,
 				C23AE35B1B3BFF470081770F /* GifView.m */,
 				C2D4589C1B3BABD600B937A1 /* Images.xcassets */,
 				C2D4589E1B3BABD600B937A1 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			files = (
 				C2D458B71B3BAC1000B937A1 /* ViewController.m in Sources */,
 				C23AE35C1B3BFF470081770F /* GifView.m in Sources */,
+				C274AD041B3CF4410074BFB1 /* Person.m in Sources */,
 				C2D4589B1B3BABD600B937A1 /* AppDelegate.m in Sources */,
 				C2D458981B3BABD600B937A1 /* main.m in Sources */,
 			);
