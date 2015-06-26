@@ -17,7 +17,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
+//    self.view.backgroundColor = [UIColor redColor];// 背景颜色，测试用
+#pragma mark - 纵向collectionView
+    [self customVerticalCollectionViewLayOut];
+    
+    
+#pragma mark - 横向collectionView
+    [self customHorizontalCollectionViewLayOut];
+    
+#pragma mark - 轮播图
+    [self carouselfigureLayout];
+    
+}
+
+// 纵向collectionView
+- (void)customHorizontalCollectionViewLayOut
+{
+    
+}
+
+// 横向collectionView
+- (void)customVerticalCollectionViewLayOut
+{
+    
+}
+
+// 轮播图
+- (void)carouselfigureLayout
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {

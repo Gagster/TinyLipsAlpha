@@ -55,6 +55,7 @@
 		C2BD9C4D1B3D3EA900B54BF7 /* TakeShotPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C4C1B3D3EA900B54BF7 /* TakeShotPageViewController.m */; };
 		C2BD9C501B3D3EFA00B54BF7 /* TakeShotFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C4F1B3D3EFA00B54BF7 /* TakeShotFileHandle.m */; };
 		C2BD9C531B3D3F1800B54BF7 /* TakeShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C521B3D3F1800B54BF7 /* TakeShotView.m */; };
+		C2BD9C561B3D863F00B54BF7 /* MineCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C551B3D863F00B54BF7 /* MineCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +164,8 @@
 		C2BD9C4F1B3D3EFA00B54BF7 /* TakeShotFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeShotFileHandle.m; sourceTree = "<group>"; };
 		C2BD9C511B3D3F1800B54BF7 /* TakeShotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeShotView.h; sourceTree = "<group>"; };
 		C2BD9C521B3D3F1800B54BF7 /* TakeShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeShotView.m; sourceTree = "<group>"; };
+		C2BD9C541B3D863F00B54BF7 /* MineCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineCollectionViewCell.h; sourceTree = "<group>"; };
+		C2BD9C551B3D863F00B54BF7 /* MineCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +371,8 @@
 				C2BD9BBE1B3CF7B600B54BF7 /* MineViewController.m */,
 				C2BD9BC01B3CF7D600B54BF7 /* MineTableViewController.h */,
 				C2BD9BC11B3CF7D600B54BF7 /* MineTableViewController.m */,
+				C2BD9C541B3D863F00B54BF7 /* MineCollectionViewCell.h */,
+				C2BD9C551B3D863F00B54BF7 /* MineCollectionViewCell.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -668,6 +673,7 @@
 				C2BD9BFA1B3CF93600B54BF7 /* SDWebImageDecoder.m in Sources */,
 				C2BD9BFD1B3CF93600B54BF7 /* SDWebImageManager.m in Sources */,
 				C2BD9C141B3D30C300B54BF7 /* ActivityPageViewController.m in Sources */,
+				C2BD9C561B3D863F00B54BF7 /* MineCollectionViewCell.m in Sources */,
 				C2BD9BF71B3CF93600B54BF7 /* NSData+ImageContentType.m in Sources */,
 				C2BD9BF91B3CF93600B54BF7 /* SDWebImageCompat.m in Sources */,
 				C2BD9C051B3CF93600B54BF7 /* UIView+WebCacheOperation.m in Sources */,
