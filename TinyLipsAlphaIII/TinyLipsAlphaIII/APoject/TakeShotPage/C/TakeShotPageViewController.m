@@ -1,23 +1,18 @@
 //
-//  MineTabBarViewController.m
+//  TakeShotPageViewController.m
 //  TinyLipsAlphaIII
 //
 //  Created by lanou3g on 15/6/26.
 //  Copyright (c) 2015年 Qi Junbao. All rights reserved.
 //
 
-#import "MineTabBarViewController.h"
-#import "FirstPageViewController.h"
-#import "ActivityPageViewController.h"
+#import "TakeShotPageViewController.h"
 
-#import "ChannelPageViewController.h"
-#import "UserPageViewController.h"
-
-@interface MineTabBarViewController ()
+@interface TakeShotPageViewController ()
 
 @end
 
-@implementation MineTabBarViewController
+@implementation TakeShotPageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

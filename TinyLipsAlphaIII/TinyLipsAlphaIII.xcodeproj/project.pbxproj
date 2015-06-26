@@ -52,6 +52,9 @@
 		C2BD9C411B3D33A300B54BF7 /* ChannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C401B3D33A300B54BF7 /* ChannelView.m */; };
 		C2BD9C441B3D33B400B54BF7 /* UserView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C431B3D33B400B54BF7 /* UserView.m */; };
 		C2BD9C461B3D3CA600B54BF7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BD9C451B3D3CA600B54BF7 /* libsqlite3.0.dylib */; };
+		C2BD9C4D1B3D3EA900B54BF7 /* TakeShotPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C4C1B3D3EA900B54BF7 /* TakeShotPageViewController.m */; };
+		C2BD9C501B3D3EFA00B54BF7 /* TakeShotFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C4F1B3D3EFA00B54BF7 /* TakeShotFileHandle.m */; };
+		C2BD9C531B3D3F1800B54BF7 /* TakeShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BD9C521B3D3F1800B54BF7 /* TakeShotView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +157,12 @@
 		C2BD9C421B3D33B400B54BF7 /* UserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserView.h; sourceTree = "<group>"; };
 		C2BD9C431B3D33B400B54BF7 /* UserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserView.m; sourceTree = "<group>"; };
 		C2BD9C451B3D3CA600B54BF7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C2BD9C4B1B3D3EA900B54BF7 /* TakeShotPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeShotPageViewController.h; sourceTree = "<group>"; };
+		C2BD9C4C1B3D3EA900B54BF7 /* TakeShotPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeShotPageViewController.m; sourceTree = "<group>"; };
+		C2BD9C4E1B3D3EFA00B54BF7 /* TakeShotFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeShotFileHandle.h; sourceTree = "<group>"; };
+		C2BD9C4F1B3D3EFA00B54BF7 /* TakeShotFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeShotFileHandle.m; sourceTree = "<group>"; };
+		C2BD9C511B3D3F1800B54BF7 /* TakeShotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeShotView.h; sourceTree = "<group>"; };
+		C2BD9C521B3D3F1800B54BF7 /* TakeShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeShotView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +248,7 @@
 				C2BD9BAC1B3CF74E00B54BF7 /* Common */,
 				C2BD9BB51B3CF74E00B54BF7 /* FirstPage */,
 				C2BD9BA41B3CF74E00B54BF7 /* ActivityPage */,
+				C2BD9C471B3D3E5400B54BF7 /* TakeShotPage */,
 				C2BD9BA81B3CF74E00B54BF7 /* ChannelPage */,
 				C2BD9BB91B3CF74E00B54BF7 /* UserPage */,
 			);
@@ -518,6 +528,43 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		C2BD9C471B3D3E5400B54BF7 /* TakeShotPage */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD9C481B3D3E5400B54BF7 /* C */,
+				C2BD9C491B3D3E5400B54BF7 /* M */,
+				C2BD9C4A1B3D3E5400B54BF7 /* V */,
+			);
+			path = TakeShotPage;
+			sourceTree = "<group>";
+		};
+		C2BD9C481B3D3E5400B54BF7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD9C4B1B3D3EA900B54BF7 /* TakeShotPageViewController.h */,
+				C2BD9C4C1B3D3EA900B54BF7 /* TakeShotPageViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		C2BD9C491B3D3E5400B54BF7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD9C4E1B3D3EFA00B54BF7 /* TakeShotFileHandle.h */,
+				C2BD9C4F1B3D3EFA00B54BF7 /* TakeShotFileHandle.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		C2BD9C4A1B3D3E5400B54BF7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD9C511B3D3F1800B54BF7 /* TakeShotView.h */,
+				C2BD9C521B3D3F1800B54BF7 /* TakeShotView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -633,7 +680,9 @@
 				C2BD9BFF1B3CF93600B54BF7 /* UIButton+WebCache.m in Sources */,
 				C2BD9BFE1B3CF93600B54BF7 /* SDWebImagePrefetcher.m in Sources */,
 				C2BD9BFC1B3CF93600B54BF7 /* SDWebImageDownloaderOperation.m in Sources */,
+				C2BD9C531B3D3F1800B54BF7 /* TakeShotView.m in Sources */,
 				C2BD9BC51B3CF8A900B54BF7 /* MineTabBarViewController.m in Sources */,
+				C2BD9C4D1B3D3EA900B54BF7 /* TakeShotPageViewController.m in Sources */,
 				C2BD9C201B3D316600B54BF7 /* MineNSObject.m in Sources */,
 				C2BD9C3E1B3D339000B54BF7 /* ActivityView.m in Sources */,
 				C2BD9BBF1B3CF7B600B54BF7 /* MineViewController.m in Sources */,
@@ -657,6 +706,7 @@
 				C2BD9C321B3D330F00B54BF7 /* ActivityFileHandle.m in Sources */,
 				C2BD9C381B3D334400B54BF7 /* UserFileHandle.m in Sources */,
 				C2BD9C411B3D33A300B54BF7 /* ChannelView.m in Sources */,
+				C2BD9C501B3D3EFA00B54BF7 /* TakeShotFileHandle.m in Sources */,
 				C2BD9BF61B3CF93600B54BF7 /* MKAnnotationView+WebCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
