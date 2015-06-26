@@ -63,7 +63,6 @@
     userVC.tabBarItem.title = @"我的";
     userVC.tabBarItem.image = nil;
 
-    
 #pragma mark - 对视图控制器进行管理
     self.viewControllers = @[naFirstC,naActivityC,naTakeShotC,naChannelC,naUserC];
     
