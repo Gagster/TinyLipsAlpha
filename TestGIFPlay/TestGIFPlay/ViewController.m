@@ -42,6 +42,8 @@
     vieW.center = CGPointMake(375 / 2, 667 / 2);
     [self.view addSubview:vieW];
     */
+    
+    //test github
 }
 
 - (void)didReceiveMemoryWarning {
